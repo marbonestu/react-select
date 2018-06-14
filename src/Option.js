@@ -61,6 +61,7 @@ class Option extends React.Component {
 
 		return option.disabled ? (
 			<div className={className}
+				 style={option.style}
 				onMouseDown={blockEvent}
 				onClick={blockEvent}>
 				{this.props.children}
